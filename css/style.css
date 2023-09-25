@@ -118,6 +118,7 @@ header{
 .foot-item{
     width: 60%;
     height: 650px;
+    display: flex;
 }
 
 .alone{
