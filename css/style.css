@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: lightblue;
+    height: 600px;
+}
+
+.menu{
+    margin: 15px auto 15px auto;
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items{
+    color: black;
+    padding: 0 15px;
+}
+
+.sfondo{
+    background-color: blue;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.rettangolo{
+    width: 40%;
+    height: 400px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+}
+
+.first-back{
+    background-color: whitesmoke;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.first-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 40%;
+    background-color: blue;
+    margin: 0 0 15px auto;
+}
+
+.friend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 20%;
+    background-color: pink;
+    margin: 0 auto 15px 0;
+}
+
+.second-back{
+    background-color: lightgray;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.third-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 60%;
+    background-color: green;
+    margin: 0 auto 15px auto;
+}
+
+.second-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 40%;
+    background-color: blue;
+    margin: 0 auto 15px 0;
+}
+
+.friend-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 20%;
+    background-color: pink;
+    margin: 0 0 15px auto;
+}
+
+.foot-container{
+    background-color: #222222;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.foot-item{
+    width: 60%;
+    height: 650px;
+}
+
+.alone{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    margin: 0 0 15px auto;
+}
+
+.item{
+    width: 10%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0 0 15px 0;
+}
+
+.foot-fine{
+    width: 60%;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log-bot{
+    background-color: palevioletred;
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
