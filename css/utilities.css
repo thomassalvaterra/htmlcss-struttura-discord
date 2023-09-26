@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*** FLEX ***/
+
+.d-flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-around { justify-content: space-around; }
+.flex-justify-center { justify-content: center; }
+.flex-align-center { align-items: center; }
+
+/*** LARGHEZZE ***/
+
+.w-20 { width: 20%; }
+.w-25 { width: 25%; }
+.w-30 { width: 30%; }
+.w-33 { width: 33%; }
+.w-40 { width: 40%; }
+.w-50 { width: 50%; }
+.w-60 { width: 60%; }
+.w-70 { width: 70%; }
+.w-80 { width: 80%; }
+.w-100 { width: 100%; }
+
+/*** PADDING ***/
+
+.p-16 { padding: 16px; }
+.pt-16 { padding-top: 16px; }
+.pr-16 { padding-right: 16px; }
+.pb-16 { padding-bottom: 16px; }
+.pl-16 { padding-left: 16px; }
+.py-16 { padding: 16px 0; }
+.px-16 { padding: 0 16px; }
+.px-64 { padding: 0 64px; }
+.py-64 { padding: 64px 0; }
+
+/*** BACKGROUND ***/
+
+.bg-lightblue {background-color: lightblue;}
+.bg-orange {background-color: orange;}
+.bg-darkblue {background-color: darkblue;}
+.bg-violet {background-color: violet;}
+.bg-dodgerblue {background-color: dodgerblue;}
+.bg-pink {background-color: pink;}
+.bg-lightgray {background-color: lightgray;}
+.bg-forestgreen {background-color: forestgreen;}
+.bg-darkslategray{background-color: darkslategray;}
+.bg-lightseagreen {background-color: lightseagreen;}
+.bg-lightcoral {background-color: lightcoral;}
+.bg-aquamarine {background-color: aquamarine;}

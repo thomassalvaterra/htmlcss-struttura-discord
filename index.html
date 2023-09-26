@@ -5,62 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/utilities.css">
 </head>
+
 <body>
-    <header>
-		<section>
-			<div class="menu">
-				<div class="menu-items">Logo</div>
-				<nav class="menu-items">link link link link</nav>
-				<div class="menu-items">Login</div>
-        	</div>
-		</section>
-		<section>
-			<div class="sfondo">
-				<div class="rettangolo"></div>
-			</div>
-		</section>
+    <header class="bg-lightblue">
+		<div class="container menu d-flex flex-justify-between flex-align-center py-16">
+			<div class="logo-column w-20 col p-16 bg-orange dashed">Logo</div>
+			<nav class="menu-column w-60 col p-16 bg-orange dashed">
+				<ul class="d-flex flex-justify-center">
+					<li class="px-16">link</li>
+					<li class="px-16">link</li>
+					<li class="px-16">link</li>
+					<li class="px-16">link</li>
+				</ul>
+			</nav>
+			<div id="login-column" class="login-column w-20 col p-16 bg-orange dashed">Login</div>
+        </div>
+		<div id="jumbotron" class="d-flex minHeight bg-darkblue py-64">
+			<div class="jumbo-content container w-50 bg-violet dashed"></div>
+		</div>
     </header>
 	<main>
 		<section>
-			<div class="first-back">
-				<div class="first-item"></div>
-				<div class="friend"></div>
+			<div class="container d-flex minHeight py-64">
+				<div class="w-60 bg-dodgerblue dashed"></div>
+				<div class="w-40 bg-pink dashed"></div>
+			</div>
+		</section>
+		<section class="bg-lightgray">
+			<div class="container d-flex minHeight py-64">
+				<div class="w-40 bg-pink dashed"></div>
+				<div class="w-60 bg-dodgerblue dashed"></div>
 			</div>
 		</section>
 		<section>
-			<div class="second-back">
-				<div class="friend-2"></div>
-				<div class="second-item"></div>
+			<div class="container d-flex minHeight py-64">
+				<div class="w-60 bg-dodgerblue dashed"></div>
+				<div class="w-40 bg-pink dashed"></div>
 			</div>
 		</section>
-		<section>
-			<div class="first-back">
-				<div class="first-item"></div>
-				<div class="friend"></div>
-			</div>
-		</section>
-		<section>
-			<div class="second-back">
-				<div class="third-item"></div>
+		<section class="bg-lightgray">
+			<div class="container d-flex minHeight py-64">
+				<div class="w-100 bg-forestgreen dashed"></div>
 			</div>
 		</section>
 	</main>
-	<footer>
-	<div class="foot-container">
-		<div class="foot-item">
-			<div class="alone"></div>
-			<div class="item"></div>
-			<div class="item"></div>
-			<div class="item"></div>
-			<div class="item"></div>
-		</div>
-		<div class="foot-fine">
-			<div class="log-bot">Logo</div>
-			<div class="log-bot">Bottone</div>
-		</div>
-	</div>
-</footer>
-</body>
 
+	<footer class="bg-darkslategray">
+		<div class="footer-top minHeight container d-flex py-64">
+			<div class="w-30 bg-lightcoral dashed"></div>
+			<div class="w-70 bg-lightseagreen dashed d-flex">
+				<div class="w-25 dashed-white"></div>
+				<div class="w-25 dashed-white"></div>
+				<div class="w-25 dashed-white"></div>
+				<div class="w-25 dashed-white"></div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-bottom container d-flex flex-justify-between bg-aquamarine py-16">
+			<div class="dashed bg-lightgray p-16">Logo</div>
+			<div class="dashed bg-lightgray p-16">Bottone</div>
+		</div>
+	</footer>
+
+</body>
 </html>
